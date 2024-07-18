@@ -18,3 +18,6 @@ Follow the following steps for Heroku deployment:
 3. Follow the heroku guideline [here](https://blog.heroku.com/deploying-react-with-zero-configuration). Note: when you are deploying using your local branch, the command to deploy should be: `git push heroku <Your local branch>:main`
 4. Rename application if needed. See instructions [here](https://devcenter.heroku.com/articles/renaming-apps#updating-git-remotes)
 Note: You should be able to see your app in Heroku dashboard!
+
+# References
+The portfolio site was created thanks to the guidance provided by this Youtube video [here](https://www.youtube.com/watch?v=bmpI252DmiI). I tweaked some stylings and customized it based on my needs. 
