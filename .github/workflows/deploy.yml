@@ -27,17 +27,14 @@ jobs:
     - name: Install dependencies
       run: 
         |
-        cd react-portfolio
         npm install
 
     - name: Build
       run: |
-        cd react-portfolio
         npm run build
 
     - name: Deploy
       run: |
-        cd react-portfolio
         git config --global user.name $user_name
         git config --global user.email $user_email
         git remote set-url origin https://${github_token}@github.com/${repository}
