@@ -14,7 +14,11 @@
 	font-size: 18px;
 	font-family: 'La Belle Aurore';
   }
-  
+
+.flex-container {
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+}
 
 .top-tags {
 	bottom: auto;
@@ -24,7 +28,7 @@
 
 .bottom-tags {
     position: absolute;
-    bottom: 20px;
+    bottom: 0px; //decorative tags are always at the very bottom
     left: 100px;
 }
 

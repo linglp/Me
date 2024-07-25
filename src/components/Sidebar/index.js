@@ -2,7 +2,7 @@ import {Link, NavLink} from 'react-router-dom';
 import './index.scss';
 import LogoBubbleTea2 from '../../assets/images/LogoBubbleTea2.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faHome, faUser, faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import {faHome, faUser, faEnvelope, faFilePdf} from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = ()  => (
@@ -22,6 +22,10 @@ const Sidebar = ()  => (
 
             <NavLink exact="true" activeclassname="active" className="contact-link" to='/contactMe'>
                 <FontAwesomeIcon icon={faEnvelope} color="#fedc97" />
+            </NavLink>
+
+            <NavLink exact="true" activeclassname="active" className="resume-link" to='/resume'>
+                <FontAwesomeIcon icon={faFilePdf} color="#fedc97" />
             </NavLink>
         </nav>
         <ul>
