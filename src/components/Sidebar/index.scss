@@ -6,6 +6,13 @@
     top: 0;
     z-index: 3;
     min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+div.nav-bar{
+    display: flex;
 }
 
 .logo{
@@ -77,6 +84,11 @@ nav a.about-link:hover::after {
 /* Contact link hover text */
 nav a.contact-link:hover::after {
     content: 'Contact';
+} 
+
+/* Resume link hover text */
+nav a.resume-link:hover::after {
+    content: 'Resume';
 } 
 
 nav a.active svg {
