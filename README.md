@@ -2,6 +2,7 @@
 Visit the portfolio site [here](https://linglp-portfolio-f62c063d84a8.herokuapp.com/)
 
 # Run application locally 
+Run `npm install`
 Run `npm start`
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
