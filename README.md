@@ -1,5 +1,5 @@
 # Visit portfolio site
-Visit the portfolio site [here](https://linglp-portfolio-f62c063d84a8.herokuapp.com/)
+Visit the portfolio site [here](https://linglp.github.io/Me/)
 
 # Run application locally 
 Run `npm install`
