@@ -9,6 +9,13 @@ const Projects = () => {
       description: 'A fun and educational twist on the classic Tetris game that teaches Chinese vocabulary through gameplay! Instead of colored blocks, pieces are made of Chinese characters. When you complete a row containing valid Chinese words or phrases, you earn points and collect "food items" - traditional Chinese desserts and snacks!',
       link: 'https://chinese-character-tetris.vercel.app/'
     },
+    {
+      id: 2,
+      image: `${process.env.PUBLIC_URL}/images/ramen.png`,
+      title: 'Top 25 Japanese Udon Ramen',
+      description: 'A data visualization chart analyzing the top-rated Japanese ramen restaurants using data from Kaggle. Created as a school project to practice data visualization techniques.',
+      link: null
+    },
     // {
     //   id: 2,
     //   image: `${process.env.PUBLIC_URL}/images/robo.png`,
@@ -34,7 +41,7 @@ const Projects = () => {
             <img src={project.image} alt={project.title} />
             <h3>{project.title}</h3>
             <p>{project.description}</p>
-            <a href={project.link}>View Project</a>
+            {project.link && <a href={project.link}>View Project</a>}
           </div>
         ))}
       </div>
