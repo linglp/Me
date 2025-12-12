@@ -1,0 +1,120 @@
+#work-experience, #education {
+  padding: 60px 20px;
+  background-color: white;
+}
+
+#work-experience h1, #education h1 {
+  font-size: 2.5rem;
+  text-align: left;
+  margin-bottom: 40px;
+  padding-left: 20px;
+}
+
+.experience-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.experience-section {
+  margin-bottom: 40px;
+}
+
+.experience-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.experience-item {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.experience-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.experience-item .role {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin: 0.25rem 0;
+  color: #555;
+}
+
+.experience-item .date {
+  font-size: 1rem;
+  color: #888;
+  margin: 0.25rem 0 1rem 0;
+  font-style: italic;
+}
+
+.experience-item p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.experience-item ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.experience-item li {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.school-project {
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.school-project h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.school-project h4 a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.school-project h4 a:hover {
+  text-decoration: underline;
+}
+
+.school-project p {
+  margin-bottom: 0.75rem;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  #work-experience, #education {
+    padding: 40px 20px;
+  }
+  
+  .experience-item {
+    padding: 1rem;
+  }
+  
+  .project-image {
+    max-width: 100%;
+  }
+}

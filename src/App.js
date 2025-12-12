@@ -1,27 +1,26 @@
-import './App.scss';
-import { Routes, Route } from 'react-router-dom';
-import ReactGA from 'react-ga4';
-import Layout from './components/Layout';
-import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
-import Pagetracking from './Googleanalytics'
+import './App.css';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Experience from './components/Experience/Experience';
+import Blog from './components/Blog/Blog';
+import Footer from './components/Footer/Footer';
 
-ReactGA.initialize("G-KFLPE2N3KE");
-ReactGA.send("pageview");
 
 function App() {
-  Pagetracking();
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-      <Route index element={<Home />} />
-      <Route path="aboutMe" element={<About />} />
-      <Route path="contactMe" element={<Contact />} />
-      <Route path="resume" element={<Resume />} />
-      </Route>
-    </Routes>
+    <div className="App">
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Experience />
+        <Blog />
+      </main>
+      <Footer />
+    </div>
   );
 }
 
