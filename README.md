@@ -3,8 +3,10 @@ Visit the portfolio site [here](https://linglp.github.io/Me/)
 
 # Run application locally 
 Run `npm install`
-Run `npm start`
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Run `NODE_OPTIONS="--localstorage-file=/tmp/localstorage" npm start`
+Open [http://localhost:3000/Me](http://localhost:3000/Me) to view it in your browser.
+
+Note: The `NODE_OPTIONS` flag is required for Node.js v25+ to avoid localStorage compilation errors with html-webpack-plugin.
 
 # Deploy to Heroku (deprecated)
 Before deploying to Heroku, make sure that the application can be built and served locally. 
@@ -21,7 +23,7 @@ Follow the following steps for Heroku deployment:
 Note: You should be able to see your app in Heroku dashboard!
 
 # Deploy to Github Pages (preferred)
-To deploy, simply run `npm deploy`. This will deploy the site to `gh-pages` branch which will then trigger a github action run on Github. 
+To deploy, simply run `npm run deploy`. This will deploy the site to `gh-pages` branch which will then trigger a github action run on Github. 
 
 Note: after deployment, it may takes a minute for the GH action to finish and for the site to be updated. 
 
