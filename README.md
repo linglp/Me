@@ -54,4 +54,4 @@ To fix: the solution was outlined in this[https://github.com/orgs/community/disc
 
 
 # References
-The portfolio site was created thanks to the guidance provided by this Youtube video [here](https://www.youtube.com/watch?v=bmpI252DmiI). I tweaked some stylings and customized it based on my needs. 
+The portfolio site was created thanks to the HTML template provided by freefolio: https://github.com/OSSPhilippines/freefolio?tab=readme-ov-file
