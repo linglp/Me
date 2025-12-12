@@ -3,7 +3,8 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
-import Contact from './components/Contact/Contact';
+import Experience from './components/Experience/Experience';
+import Blog from './components/Blog/Blog';
 import Footer from './components/Footer/Footer';
 
 
@@ -15,7 +16,8 @@ function App() {
         <Hero />
         <About />
         <Projects />
-        <Contact />
+        <Experience />
+        <Blog />
       </main>
       <Footer />
     </div>

@@ -1,7 +1,6 @@
-import React from 'react';
-import './Contact.css';
+import './Experience.css';
 
-const Contact = () => {
+const Experience = () => {
   return (
     <>
       <section id="education">
@@ -19,7 +18,7 @@ const Contact = () => {
         </div>
       </section>
 
-      <section id="contact">
+      <section id="work-experience">
         <h1>Work Experience</h1>
         <div className="experience-content">
           <div className="experience-item">
@@ -39,20 +38,41 @@ const Contact = () => {
           </div>
 
           <div className="experience-item">
-            <h3>Healthcare Startup</h3>
+            <h3>ArborMetrix, Inc.</h3>
             <p className="role">Product Analyst</p>
-            <p className="date">2017 - 2019</p>
+            <p className="date">November 2020 - January 2022</p>
             <ul>
-              <li>Used SQL to extract and analyze data from databases</li>
-              <li>Created data visualizations in Tableau and communicated results to clients</li>
-              <li>Developed Python library to improve measure writing efficiency</li>
-              <li>Automated Tableau workbook creation and modification</li>
+              <li>Developed an internal tool with D3 and Flask to visualize dependencies and execution order of clinical measures, streamlining communication between data scientists and clients while reducing the need for static file maintenance</li>
+              <li>Contributed to an internal Python library that converts clinical measures from SQL format to YAML, enabling measures to be processed much faster and clients to better interpret and utilize clinical data</li>
+              <li>Used Python to automate Tableau workbook updates, reducing manual effort and enabling modifications at scale</li>
             </ul>
           </div>
+
+          <div className="experience-item">
+            <h3>Youth Policy Lab, University of Michigan</h3>
+            <p className="role">Research Assistant for Brian Jacob</p>
+            <p className="date">June 2020 - October 2020</p>
+            <ul>
+              <li>Cleaned household survey datasets, created alternative measures of material hardship, and performed descriptive analysis to look at association between various hardship variables</li>
+              <li>Cleaned, validated, and aggregated juvenile justice datasets from Michigan State Court Administrative Office, contributing to research that demonstrated the negative effects of detention on youth outcomes</li>
+            </ul>
+          </div>
+
+          <div className="experience-item">
+            <h3>The World Bank</h3>
+            <p className="role">Impact Evaluation Intern, Development Research Group</p>
+            <p className="date">June 2019 - August 2019</p>
+            <ul>
+              <li>Reviewed over 300 articles published in the Journal of Development Economics and American Economic Journal within two weeks and summarized how articles transform savings and profits variables on Excel and LaTeX</li>
+              <li>Utilized STATA packages designed by the Development Impact Evaluation (DIME) team to clean datasets, set up high frequency checks, run simple randomization, and produce descriptive statistics</li>
+            </ul>
+          </div>
+
+          
         </div>
       </section>
     </>
   );
 };
 
-export default Contact;
+export default Experience;

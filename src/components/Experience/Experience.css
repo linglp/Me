@@ -1,9 +1,9 @@
-#contact, #education {
+#work-experience, #education {
   padding: 60px 20px;
   background-color: white;
 }
 
-#contact h1, #education h1 {
+#work-experience h1, #education h1 {
   font-size: 2.5rem;
   text-align: left;
   margin-bottom: 40px;
@@ -106,7 +106,7 @@
 }
 
 @media (max-width: 768px) {
-  #contact, #education {
+  #work-experience, #education {
     padding: 40px 20px;
   }
   
